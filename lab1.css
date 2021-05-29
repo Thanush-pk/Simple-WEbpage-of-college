@@ -1,0 +1,70 @@
+.nav{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: max-content;
+}
+.nav a{
+   
+    float: left;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: cadetblue;
+    color: rgb(0, 0, 12);
+}
+
+#container{
+    width: 1350px;
+    height: 370px;
+    background-color: blue;
+
+}
+#box{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+
+}
+.center{
+    margin-left: 150px;
+   margin-right: 50px; 
+  position: relative;
+}
+
+
+.column {
+    float: left;
+    width: 400px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /*css for placement page*/
+  .t1{
+      width: 700px;
+      border-style: double;
+      text-decoration: solid;
+      height: 300px;
+      font-size: 20px;
+      
+  }
+  
+  tr:nth-child(even) {
+    background-color: gray;
+  }
+
+  /* Css for faculty page */
+  .card {
+    box-shadow: 70pxs;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
